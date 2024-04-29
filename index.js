@@ -29,3 +29,6 @@ if(grade <= total){
 }else{
     alert("Your in the failing grade! You better study harder!")
 }
+
+// Switch statement
+var day = 3;
