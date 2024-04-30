@@ -11,9 +11,9 @@ var hour = 7
 var Time = Number(prompt("What time did you wake up? "))
 
 if(hour > Time || Time == 7){
-    alert("Good job! you woke up early this time")
+    console.log("Good job! you woke up early this time")
 }else{
-    alert("You woke up late! you better hurry up! and get dressed already!")
+    console.log("You woke up late! you better hurry up! and get dressed already!")
 }
 
 // If...Else If...Else Statement
@@ -21,14 +21,39 @@ var grade = 90;
 var total = Number(prompt("Enter your total grade: "))
 
 if(grade <= total){
-    alert("Good job! you got an A-grade! keep it up!")
+    console.log("Good job! you got an A-grade! keep it up!")
 }else if(total >= 80){
-    alert("Good job! You got a B-grade!")
+    console.log("Good job! You got a B-grade!")
 }else if (total >= 70){
-    alert("Please make some more efforts on your grade, but you did a pretty good job! You got a C-grade")
+    console.log("Please make some more efforts on your grade, but you did a pretty good job! You got a C-grade")
 }else{
-    alert("Your in the failing grade! You better study harder!")
+    console.log("Your in the failing grade! You better study harder!")
 }
 
 // Switch statement
-var day = 3;
+var day = Number(prompt("What day is it? "))
+var dayname;
+
+switch(day){
+    case 1: 
+    dayname = "Monday"
+    console.log("It's Monday!")
+    break;
+    case 2:
+    dayname = "Tuesday"
+    console.log("It's Tuesday!")
+    break;
+    case 3:
+    dayname = "Wednesday"
+    console.log("It's Wednesday!")
+    break;
+    case 4:
+    dayname = "Thursday"
+    console.log("It's Thursday!")
+    break;
+    case 5:
+    dayname = "Friday"
+    console.log("It's Friday!")
+    break;
+}
+
