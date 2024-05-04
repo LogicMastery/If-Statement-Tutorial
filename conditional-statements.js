@@ -1,3 +1,4 @@
+// If Statement
 var num = 25
 var EnterNumber = Number(prompt("Enter a valid number? "))
 
@@ -5,6 +6,7 @@ if(num <= EnterNumber){
     console.log("That's a good number")
 }
 
+// If...Else Statement
 var hour = 7
 var Time = Number(prompt("What time did you wake up? "))
 
@@ -14,6 +16,7 @@ if(hour > Time || Time == 7){
     console.log("You woke up late! you better hurry up! and get dressed already!")
 }
 
+// If...Else if...Else Statement
 var grade = 90;
 var total = Number(prompt("Enter your total grade: "))
 
@@ -30,6 +33,7 @@ if(grade <= total){
 var day = Number(prompt("What day is it? "))
 var dayname;
 
+// Switch Statement
 switch(day){
     case 1:
         dayname = "Monday"
